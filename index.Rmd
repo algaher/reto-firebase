@@ -1,0 +1,18 @@
+---
+title: "Muestra"
+---
+
+El siguiente código desplegará únicamente una muestra aleatoria de 1,000 resgistros de la base de datos del proyecto.
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+base <- read.csv("citibike.csv")
+
+muestra <- base[sample(nrow(base),size = 1000),]
+
+muestra
+```
+

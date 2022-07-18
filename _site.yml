@@ -1,0 +1,6 @@
+name: "citibike firebase"
+navbar:
+  title: "citibike firebase"
+  left:
+    - text: "Muestra"
+      href: index.html
